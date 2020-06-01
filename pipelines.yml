@@ -1,5 +1,5 @@
 resources:
-  - name: GitRepo
+  - name: Git_Repo1
     type: GitRepo
     configuration:
       path: bindushree16/test
