@@ -1,0 +1,21 @@
+resources:
+  - name: GitRepo
+    type: GitRepo
+    configuration:
+      path: bindushree16/test
+      gitProvider: bindu_github
+      branches: 
+        include: master
+      files:  
+        include: pipelines.yml
+
+pipelines:
+  - name: test_pipeline
+    steps:
+      - name: my_SteptestReports
+        type: Bash
+#         configuration: 
+#           nodePool: bindu_win_node
+        execution:
+          onExecute:
+            - echo "hi"
