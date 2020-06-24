@@ -14,8 +14,8 @@ pipelines:
     steps:
       - name: my_SteptestReports
         type: Bash
-        configuration: 
-          nodePool: testing_node
+#         configuration: 
+#           nodePool: testing_node
         execution:
           onExecute:
             - echo "hi"
