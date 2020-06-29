@@ -17,8 +17,8 @@ pipelines:
         configuration: 
           environmentVariables: 
             env1: value1
-#         configuration: 
-#           nodePool: testing_node
+          inputResources:
+            - name: Git_Repo1
         execution:
           onExecute:
             - echo "hi"
