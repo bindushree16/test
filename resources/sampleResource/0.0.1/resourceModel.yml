@@ -1,0 +1,12 @@
+configuration:
+#   resourceFoo:
+#     type: Int
+  resourceIntegration:
+    type: Integration
+    validate:
+      isIntegrationType: "GitHub" #Artifactory
+#   resourceList:
+#     type: String[]
+#     validate:
+#       contains: "resource"
+© 2020 GitHub, Inc.
