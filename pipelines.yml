@@ -6,8 +6,8 @@ resources:
       gitProvider: bindu_github
       branches: 
         include: master
-      files:  
-        include: pipelines.yml
+#       files:  
+#         include: pipelines.yml
 
 pipelines:
   - name: test_pipeline
