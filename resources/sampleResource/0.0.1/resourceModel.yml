@@ -9,4 +9,3 @@ configuration:
 #     type: String[]
 #     validate:
 #       contains: "resource"
-© 2020 GitHub, Inc.
